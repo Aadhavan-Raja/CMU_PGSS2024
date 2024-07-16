@@ -1,7 +1,7 @@
 # Design the streamlit app.  The app will have a title, a file uploader for an image, and a button to make predictions and display the result. 
 
 import streamlit as st
-from tensorflow.keras.models import load_model  # TensorFlow is required for Keras to work
+from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 import os
